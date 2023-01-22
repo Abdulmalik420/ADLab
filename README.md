@@ -13,3 +13,8 @@
 
 - You can tell which is which by seeing which one is connected to the internet which can only be the NAT.
 ![Network Mystery](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-22%20162036.png)
+
+- Now that we have then figured out we can change their names to make it easier to identify
+- Once that done we can configure an IP for the internal network
+![Network Config](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-22%20163013.png)
+
