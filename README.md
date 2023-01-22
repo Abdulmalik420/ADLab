@@ -8,4 +8,5 @@
 - Once you open the VM it asks for you to "press Ctrl+Alt_Delete to unlock" but when you do using your keyvboard it effects your host and not the vm. A simple way to proceed is to use the soft keyboard option in virtualbox. It can be found by going to Input and then keyboard.
 - Your can then set it up and login.
 ### Setting Up Network
-- When you open your network settings (you can do this through the control panel)
+- When you open your network settings (you can do this through the control panel) you should see two network
+- ![Network start](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-22%20161202.png)
