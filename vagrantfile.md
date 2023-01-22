@@ -32,7 +32,8 @@ vm1.vm.network "private_network", :ip => "192.168.33.10", :adpater => 2
 ```
 Command: ["startvm", "6bb4a436-62c8-469f-bbfa-01b36751fd92", "--type", "headless"]
 
-Stderr: VBoxManage.exe: error: Failed to open/create the internal network 'HostInterfaceNetworking-VirtualBox Host-Only Ethernet Adapter #2' (VERR_INTNET_FLT_IF_NOT_FOUND).
+Stderr: VBoxManage.exe: error: Failed to open/create the internal network 
+'HostInterfaceNetworking-VirtualBox Host-Only Ethernet Adapter #2' (VERR_INTNET_FLT_IF_NOT_FOUND).
 VBoxManage.exe: error: Failed to attach the network LUN (VERR_INTNET_FLT_IF_NOT_FOUND)
 VBoxManage.exe: error: Details: code E_FAIL (0x80004005), component ConsoleWrap, interface IConsole
 ```
