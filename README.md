@@ -17,4 +17,15 @@
 - Now that we have then figured out we can change their names to make it easier to identify
 - Once that done we can configure an IP for the internal network
 ![Network Config](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-22%20163013.png)
+- This was how I configured it. 
+- Now that we have the network part set up we can move on to the AD part.
+### Active Directory Set Up
+- To start of we need to open the server manager and this is where we can install active directory.
+- We can install AD by pressing "add roles and features" which is one of the options in quick start.
+- We can then press next untill be reach the Server Role section. Here we need to check the Active Directory Domain Services option. We can then proceed untill the install button is click able.
+- Once its downloaded we can then make this server into a domain controller. The domain controller is one that controls everything that goes on in this server and they have access to everything.
+### Domain Controller Set Up
+- We need to promote this server into a domain controller. Since this is the only server it will give us a notice asking if we want to promte this server into a domain controller. The notice can be see up at the flag icon. We can then promote this server to a domain controller.
+![Domain Notice](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-22%20172211.png)
+-
 
