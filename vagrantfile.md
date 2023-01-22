@@ -16,6 +16,8 @@ Vagrant.configure("2") do |config|
 	  vm1.vm.box = "StefanScherer/Windows_2019"
 	  vm1.vm.hostname = "ADLab"
 	  vm1.vm.network "private_network", type: "internal", ip: "192.168.33.10"
+	  vm1.vm.communicator = "winrm"
+	  vm1.winrm.port = 55985
 	end
 end
 ```
