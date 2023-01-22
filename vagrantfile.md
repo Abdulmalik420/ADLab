@@ -17,7 +17,8 @@ Vagrant.configure("2") do |config|
 	  vm1.vm.hostname = "ADLab"
 	  vm1.vm.network "private_network", type: "internal", ip: "192.168.33.10"
 	end
-end```
+end
+```
 
 - The problem is the vm1.vm.network part. This is what is used to create an internal network. There is no reason to create a NAT network because it is done by default.
-- I kept
+- I kept getting an error that an internal network couldnt be created. And it also wasn't creating an internal network but a host-only network.
