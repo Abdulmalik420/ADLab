@@ -10,3 +10,6 @@
 ### Setting Up Network
 - When you open your network settings (you can do this through the control panel) you should see two network
 ![Network start](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-22%20161202.png)
+
+- You can tell which is which by seeing which one is connected to the internet which can only be the NAT.
+![Network Mystery](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-22%20162036.png)
