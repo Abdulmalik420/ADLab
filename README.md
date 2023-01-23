@@ -67,3 +67,15 @@ net user <username>
 ![Config](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-23%20155850.png)
 - While seting up we need to choose the NAT option which is what we are trying to set up the RAS for.
 ![Config](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-23%20160043.png)
+- We then need to choose the network that is our NAT network. Make sure that you are loged in as administrator and not admin. It seams like if you are loged in as admin you dont have access to the NAT network. We can then finish the configuration. Once finished the PC name(local) should now have a green arrow instead of a red arrow meaning that its working.
+### DHCP Set UP
+- Now that have the NAT connected via RAS we now need to configure a DHCP so that IP address can be assigned automaticly allowing the computers in the internal network to be able to connect to the internet.
+- We can then install the DHCP server as we have done by pressing the adding roles and features in the quick start.
+- In order to configure the DHCP we can do that through the tools section. 
+![DHCP Config](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-23%20163526.png)
+- For this server we are going to set up a IPv4 DHCP. By right clicking IPv4 we can creat a new scope which will be the range of the IP address that can be assigned.
+- The range that I will be putting for the IP range will be 172.16.0.100-200 meaning that there will be 100 IPs that can be assigned at the same time.
+- This is the range that I put.
+![IP Range](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-23%20164000.png)
+- Next we dont want any IP to be excluded so we can skip that part.
+- We can also configure the lease time for the IP addressed. The leasing function of DHCP allow for IP addresses to be reused. This makes it so that one system would not be stuck with one IP. If they are not longer connecting to the network then leasing allows their IP to be assigned to someone else.
