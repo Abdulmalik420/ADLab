@@ -35,5 +35,11 @@
 ![Domain End](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-23%20125121.png)
 ### Creating an Admin Account
 - We will now be creating an admin account other then the adminstrator account that we hvae been using so far.
-- In order to change user settings we need to opne up the AD Users and Computers which can be found by going tool section up at the section tab.
+- In order to change user settings we need to open up the AD Users and Computers which can be found by going tool section up at the section tab.
 ![Admin Creation](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-23%20132253.png)
+- The first thing that we want to do is to create a Organizational Unit (OU) which will be the place where we store all of the admin account.
+- We can do that my right clicking on the our domain and creating a new OU.
+![OU Creation](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-23%20133815.png)
+- We can then name the OU that we are creating and uncheck the box that asks for deletion protection. Since this is a Lab in the case that we want to deleted we dont have go through the hassle of deleting when it has deletion protection.
+- We can then proceed with creating a admin by making a new user in the admins OU.
+![Admin Create](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-23%20134327.png)
