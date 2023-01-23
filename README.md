@@ -17,7 +17,7 @@
 - Now that we have then figured out we can change their names to make it easier to identify
 - Once that done we can configure an IP for the internal network
 ![Network Config](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-22%20163013.png)
-- This was how I configured it. 
+- This was how I configured it. You can set the IP to anything and the subnet should be this. The DNS should be a loop back since this isnt connected to the internet so the DN can be the build in DNS. The IP can be its own IP which is 172.16.0.1 or 127.0.0.1 is just a way to refure to back to it self.
 - Now that we have the network part set up we can move on to the AD part.
 ### Active Directory Set Up
 - To start of we need to open the server manager and this is where we can install active directory.
