@@ -43,3 +43,5 @@
 - We can then name the OU that we are creating and uncheck the box that asks for deletion protection. Since this is a Lab in the case that we want to deleted we dont have go through the hassle of deleting when it has deletion protection.
 - We can then proceed with creating a admin by making a new user in the admins OU.
 ![Admin Create](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-23%20134327.png)
+- We can then fill in the info for the admin. And before we finish we should also check the never change password box as well. Since this is a Lab making it like this would just make it easier while we look through everything else.
+![Admin Create](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-23%20135618.png)
