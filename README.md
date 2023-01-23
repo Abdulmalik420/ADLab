@@ -32,7 +32,7 @@
 - After this we will be prompted to set up a password. Then we can continue until the install is click-able.
 - Once its installed it be prompted to restart.
 - Once it restarts we can see that our domain name is visiable next to our login name. And now we will be loging in a the domain controller.
-- ![Domain End](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-23%20125121.png)
+![Domain End](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-23%20125121.png)
 ### Creating an Admin Account
 - We will now be creating an admin account other then the adminstrator account that we hvae been using so far.
 - In order to change user settings we need to open up the AD Users and Computers which can be found by going tool section up at the section tab.
