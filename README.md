@@ -27,5 +27,8 @@
 ### Domain Controller Set Up
 - We need to promote this server into a domain controller. Since this is the only server it will give us a notice asking if we want to promte this server into a domain controller. The notice can be see up at the flag icon. We can then promote this server to a domain controller.
 ![Domain Notice](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-22%20172211.png)
--
+- We can then name the domain.
+![Domain Setup](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-23%20123653.png)
+- After this we will be prompted to set up a password. After this we can continue until the install is click-able.
+- 
 
