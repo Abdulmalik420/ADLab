@@ -29,6 +29,7 @@
 ![Domain Notice](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-22%20172211.png)
 - We can then name the domain.
 ![Domain Setup](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-23%20123653.png)
-- After this we will be prompted to set up a password. After this we can continue until the install is click-able.
-- 
-
+- After this we will be prompted to set up a password. Then we can continue until the install is click-able.
+- Once its installed it be prompted to restart.
+- Once it restarts we can see that our domain name is visiable next to our login name. And now we will be loging in a the domain controller.
+![Domain End](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-23%20125121.png)
