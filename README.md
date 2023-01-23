@@ -53,4 +53,6 @@
 ```
 net user <username>
 ```
-- 
+- From this if we check the administrator account as well we can see the difference between the admin and administrator.
+![User Comp](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-23%20142552.png)
+- We can see that administrator has access to more groups and has more even to much power. While the admin only has access to the user and admin groups.
