@@ -45,3 +45,12 @@
 ![Admin Create](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-23%20134327.png)
 - We can then fill in the info for the admin. And before we finish we should also check the never change password box as well. Since this is a Lab making it like this would just make it easier while we look through everything else.
 ![Admin Create](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-23%20135618.png)
+- We will now give admin privileges to this user. We can do this by right clicking the user and going into their properties.
+- We can then go into the member of section add this user to the domain admin folder.
+![Admin Making](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-23%20140930.png)
+- We can now log in as the admin by loging off the the adminstrator and changing user to the admin and logining on.
+- Once we are loged in as the admin we can check our account by using this command which will give us a basic overview of the account.
+```
+net user <username>
+```
+- 
