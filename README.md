@@ -36,7 +36,7 @@
 ### Creating an Admin Account
 - We will now be creating an admin account other then the adminstrator account that we hvae been using so far.
 - In order to change user settings we need to open up the AD Users and Computers which can be found by going tool section up at the section tab.
-- ![Admin Creation](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-23%20132253.png)
+![Admin Creation](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-23%20132253.png)
 - The first thing that we want to do is to create a Organizational Unit (OU) which will be the place where we store all of the admin account.
 - We can do that my right clicking on the our domain and creating a new OU.
 ![OU Creation](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-23%20133815.png)
