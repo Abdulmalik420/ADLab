@@ -1,7 +1,7 @@
 # Requirements
 - A Hybervisor (I used VirtualBox)
 - A windows server. This is what I used [Windows Server 19](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019)
-- A regular windows which would be the basic users. This [site](https://www.extremetech.com/computing/198427-how-to-install-windows-10-in-a-virtual-machine) can help you with installing a iso file to use with virtualbox.
+- A regular windows which would be the basic users. This [Youtube Video](https://www.youtube.com/watch?v=5MU10eZbFeA) can help you with installing a iso file to use with virtualbox.
 
 # Walk-Through
 ### Set Up
@@ -85,4 +85,6 @@ net user <username>
 ![Config](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-23%20165412.png)
 ### Checking Our Work
 - What we want to do is to create a basic user. Just like how we did with the admin user just without the admin privileges. What I did since the user tab in the active directory is full of system users I created another OU called BASICUSERS.
+- Now what we need to do is create a new vm using windows 10 iso that we had downloaded. But unlike the main machine we want to set the network to internal network that we made for the main machine.
+- When can then start up the vm and set it up.
 - 
