@@ -56,3 +56,14 @@ net user <username>
 - From this if we check the administrator account as well we can see the difference between the admin and administrator.
 ![User Comp](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-23%20142552.png)
 - We can see that administrator has access to more groups and has more even to much power. While the admin only has access to the user and admin groups.
+### Installing RAS/NAT
+- What we are doing here is configuring a remote access service to give the computers that are connected to the internal network connection to the internet. So we are making the connection to NAT through remote access service.
+- We can do this by adding a new feture like we added the active directory domain service.
+- We can then select the remote access option to install in the server roles tab. In the role service tab we need to select the routing option and continue to install.
+- Once it has installed we can configure it so that it does what it should.
+### Configuring RAS/NAT
+- To configure we need to go to the tool section and look for the routing and remote access option.
+- We can then right click the PC name (local) and choose configure and follow the setup.
+![Config](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-23%20155850.png)
+- While seting up we need to choose the NAT option which is what we are trying to set up the RAS for.
+![Config](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-23%20160043.png)
