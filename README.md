@@ -92,3 +92,7 @@ net user <username>
 - This can be done through the setting menu Rename this PC(Advanced). 
 - Once we are there we can change the name of the PC and also add it to our domain. The login cred that is asked can either be the default administrator or the admin that we had created.
 ![Domain Join](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-24%20132117.png)
+- Now that we have this PC in our domain. Once it restarts we can log in as the basic user that we had created.
+![Basic User](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-24%20132606.png)
+- Now that we have this PC connected to our domain we can see that in out AD the computer shows up.
+![CheckPC](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-24%20132850.png)
