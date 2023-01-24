@@ -6,7 +6,7 @@
 # Walk-Through
 ### Set Up
 - Create a VM using virtualbox. You can either use the ISO file or the VHD to set up the VM. The configurations depend on specs you want. But just be sure to set up two networks one NAT and the other an internal network. I like to name me internal nmetwork by celestial bodies so this one was names Moon.
-- Once you open the VM it asks for you to "press Ctrl+Alt_Delete to unlock" but when you do using your keyvboard it effects your host and not the vm. A simple way to proceed is to use the soft keyboard option in virtualbox. It can be found by going to Input and then keyboard.
+- Once you open the VM it asks for you to "press Ctrl+Alt+Delete to unlock" but when you do using your keyvboard it effects your host and not the vm. A simple way to proceed is to use the soft keyboard option in virtualbox. It can be found by going to Input and then keyboard.
 - Your can then set it up and login.
 ### Setting Up Network
 - When you open your network settings (you can do this through the control panel) you should see two network
@@ -86,5 +86,9 @@ net user <username>
 ### Checking Our Work
 - What we want to do is to create a basic user. Just like how we did with the admin user just without the admin privileges. What I did since the user tab in the active directory is full of system users I created another OU called BASICUSERS.
 - Now what we need to do is create a new vm using windows 10 iso that we had downloaded. But unlike the main machine we want to set the network to internal network that we made for the main machine.
+- Dont be like me and download the home version of windows. It seams like the home version doesnt allow you to join a domain. Download the pro version that should work.
 - When can then start up the vm and set it up.
-- 
+- Once it has been set up what we need to do is to connect this vm to our domain that we had created. Mine was ourdomain.com.
+- This can be done through the setting menu Rename this PC(Advanced). 
+- Once we are there we can change the name of the PC and also add it to our domain. The login cred that is asked can either be the default administrator or the admin that we had created.
+![Domain Join](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-24%20132117.png)
