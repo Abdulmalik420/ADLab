@@ -2,6 +2,7 @@
 - A Hybervisor (I used VirtualBox)
 - A windows server. This is what I used [Windows Server 19](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019)
 - A regular windows which would be the basic users. This [Youtube Video](https://www.youtube.com/watch?v=5MU10eZbFeA) can help you with installing a iso file to use with virtualbox.
+- If you would like another prespective on how this can be done you can check out [JonCyberGuy](https://github.com/JonCyberGuy/ActiveDirectoryLab).
 
 # Walk-Through
 ### Set Up
