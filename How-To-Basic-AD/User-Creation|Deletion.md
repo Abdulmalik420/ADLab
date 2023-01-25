@@ -9,10 +9,10 @@
 ### Step 3
 - Once we are asked for password we can choose from these 4 boxes.
 - ![Step 3](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-25%20110028.png)
-- **User must change password at next login** - This is good to use when you are creating an account for someone who is new to the company. This way you can give them a generic password while setting it up and once the user logins in they could put their own password according to the password policy.
-- **User cannot change password** - This might be good when you are making an temporary user account for someone out side of the company. Or if this user is something like a general account that more then one person can use.
-- **Password never expires** - This just makes it so that the user wouldnt have to regularly change their password. This might increase security but it might also make people forget the new password they had put.
-- **Account is disabled** - This could be used for when the new user hasnt arrived yet and it would be more secure to have the account disabled till the user arrives.
+- ==User must change password at next login== - This is good to use when you are creating an account for someone who is new to the company. This way you can give them a generic password while setting it up and once the user logins in they could put their own password according to the password policy.
+- ==User cannot change password== - This might be good when you are making an temporary user account for someone out side of the company. Or if this user is something like a general account that more then one person can use.
+- ==Password never expires== - This just makes it so that the user wouldnt have to regularly change their password. This might increase security but it might also make people forget the new password they had put.
+- ==Account is disabled== - This could be used for when the new user hasnt arrived yet and it would be more secure to have the account disabled till the user arrives.
 ### Extra Steps
 - Once the user is created we can modify everything about the user from righ clicking the user and going to tasks.
 - ![Step 4](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-25%20110242.png)
