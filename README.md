@@ -97,3 +97,16 @@ net user <username>
 ![Basic User](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-24%20132606.png)
 - Now that we have this PC connected to our domain we can see that in out AD the computer shows up.
 ![CheckPC](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-24%20132850.png)
+### Bonus
+- You can use a bash script to make the opening of both the DC and the user vm automaticly.
+- Its a simple script that open the DC vm first and wait 1 min after open the user vm.
+- Make sure that the file is sayed as .sh and you can make it so that its executable.
+``` 
+#! /bin/bash
+
+start "E:\Devops\ADLab\ADLab.vbox"
+sleep 60
+start "E:\VMAD\WindowsUserAD\WindowsUserAD.vbox"
+sleep 5
+exit
+```
