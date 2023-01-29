@@ -100,7 +100,7 @@ net user <username>
 ### Bonus
 - You can use a bash script to make the opening of both the DC and the user vm automaticly.
 - Its a simple script that open the DC vm first and wait 1 min after open the user vm.
-- Make sure that the file is sayed as .sh and you can make it so that its executable.
+- Make sure that the file is saved as .sh and you can make it so that its executable.
 ``` 
 #! /bin/bash
 
