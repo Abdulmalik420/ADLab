@@ -33,3 +33,11 @@
 - Then we can update the policy and restart the basic computer to have the policies to be effected.
 - You should check the remote setting to make sure that the policy went into effect and that its enabled. Now you can remote connect into it.
 - For some reason I cant get the remote shutdown to work. It should work with the command ```shutdown /r /m <ComputerName>``` but its not. I am going to look into it more to see what I am doing wrong.
+### Remote Desktop Connect
+- To use this remote connect that comes default in windows we need the name of the computer in the domain that we want to connect to.
+![Connect](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-30%20140640.png)
+- Then we can use our admin username and password to verify that we have access to remote connect into a computer thats in our domain. If you try to use a basic username and password it will say that this user doesnt havea access to remote connect into this computer.
+- Once we give the admin user we can not controll this computer remotely.
+- The blue bar at the top indicates that its connected
+![RemoteConnect](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-30%20140746.png)
+- As you can see if another person is also logged in it will ask if you want to kick them out. You can also change this in group policy as well.
