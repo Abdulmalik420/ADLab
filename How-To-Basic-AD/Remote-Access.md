@@ -38,6 +38,6 @@
 ![Connect](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-30%20140640.png)
 - Then we can use our admin username and password to verify that we have access to remote connect into a computer thats in our domain. If you try to use a basic username and password it will say that this user doesnt havea access to remote connect into this computer.
 - Once we give the admin user we can not controll this computer remotely.
-- The blue bar at the top indicates that its connected
+- The blue bar at the top indicates that its connected                                                                          
 ![RemoteConnect](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-01-30%20140746.png)
 - As you can see if another person is also logged in it will ask if you want to kick them out. You can also change this in group policy as well.
