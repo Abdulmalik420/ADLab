@@ -14,6 +14,6 @@
 - Anonymous access: An account name or password is not required. This option disables authentication for the SMTP Server.
 - Basic authentication: The account name and password of the server that you are connecting to are sent as clear text. Basic Authentication can be selected when sending e-mail to a personal account or an Exchange account. Because the credentials are passed in clear text, it is recommended to enable TLS encryption.
 - Integrated Windows Authentication: The Windows domain account name and password are used to authenticate. The account you enter transmits the e-mails.
-- TLS encryption: Similar to SSL, TLS secures the connection. Requires a valid SSL server certificate installed on this server.
+- TLS encryption: Similar to SSL, TLS secures the connection. Requires a valid SSL server certificate installed on this server.                                                                           
 ![Setting3](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-02-04%20171757.png)
 - What I did was creat another user that I would use for this and set up basic authentication.
