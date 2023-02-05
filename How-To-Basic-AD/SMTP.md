@@ -7,7 +7,7 @@
 - After it has been installed we can opne it from the tool tab.
 - It isnt SMTP but IIS 6.0 Manager
 - Once we open this we right click [SMTP Virtual Server #1] and open up its properties.
-- There we can navigate over the the delivery tab and open outbound security
+- There we can navigate over the the delivery tab and open outbound security                                                                    
 ![Setting2](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-02-04%20171720.png)
 ### Outbound Security
 - Once you opne outbound security we can see these settings.
