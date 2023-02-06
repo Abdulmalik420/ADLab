@@ -5,7 +5,7 @@
 - If you would like another prespective on how this can be done you can check out [JonCyberGuy](https://github.com/JonCyberGuy/ActiveDirectoryLab).
 
 ## Lab Set up
-- Active Directory Lab [Set Up](https://github.com/Abdulmalik420/ADLab/blob/main/AD-Set-Up.md)
+- Active Directory Lab [Set Up](https://github.com/Abdulmalik420/ADLab/blob/main/AD-Set-Up.md) walk through.
 - Tried to use vagrant to set up the VM's but I couldn't get it to work. [Vagrant Trial](https://github.com/Abdulmalik420/ADLab/blob/main/ADLab-Trials.md)
 
 ## How to Basics
