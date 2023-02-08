@@ -33,7 +33,9 @@ sudo apt-get install sssd realmd oddjob oddjob-mkhomedir adcli samba-common krb5
 
 - By using the command ```realm discover``` we can see that ourdomain.com is not discoverable meaning we can not connect to it.
 - To join we can use the command 
-```sudo realm join --user=a-radahn ourdomain.com -v```
+```
+sudo realm join --user=a-radahn ourdomain.com -v
+```
 - The user needs someone who is authenticated to create a computer in the active directory. If we have everything correctly we should see the message ```* Successfully enrolled machine in realm```
 - Using the command ```realm list``` we can see that we are connected.
 - If we go back to our DC vm we can see that this vm is now a part of domain.         
