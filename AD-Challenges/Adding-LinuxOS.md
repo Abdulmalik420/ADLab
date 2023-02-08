@@ -22,8 +22,6 @@ sudo apt-get install sssd realmd oddjob oddjob-mkhomedir adcli samba-common krb5
 - While installing you will be prompted to put in a default domain that you want to connect to.
 ![prompt](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-02-08%20152852.png)
 
-### Explanation
-
 - **sssd:** The System Security Services Daemon (SSSD) is a system service that provides access to various identity and authentication providers, including an Active Directory (AD) domain.
 - **realmd:** The Realmd service is used to discover and join identity domains such as Active Directory, and automate the configuration of required packages and services.
 - **oddjob:** The oddjob package provides a D-Bus service for running small, single-shot tasks for an unprivileged user, such as creating a home directory for a new user.
@@ -32,3 +30,7 @@ sudo apt-get install sssd realmd oddjob oddjob-mkhomedir adcli samba-common krb5
 - **samba-common:** The Samba common package provides shared libraries and support files used by other Samba components, including the Samba client utilities.
 - **krb5-user:** The krb5-user package provides the user-space components required to use Kerberos authentication, which is a secure authentication system that is widely used for network authentication.
 - **sssd-krb5:** The sssd-krb5 package provides the SSSD back end for Kerberos authentication.
+
+- By using the command ```realm discover``` we can see that ourdomain.com is not discoverable meaning we can not connect to it.
+- To join we can use the command ```sudo realm join --user=a-radahn ourdomain.com -v``` The user needs someone who is authenticated to create a computer in the active directory. If we have everything correctly we should see the message ```* Successfully enrolled machine in realm```
+- Using the command ```realm list``` we can see that we are connected.
