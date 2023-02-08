@@ -40,3 +40,4 @@ sudo realm join --user=a-radahn ourdomain.com -v
 - Using the command ```realm list``` we can see that we are connected.
 - If we go back to our DC vm we can see that this vm is now a part of domain.         
 ![check](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-02-08%20155117.png)
+- Now even if this vm is connected to our domain it still doesnt mean that we can log onto this with any other user in this domain.
