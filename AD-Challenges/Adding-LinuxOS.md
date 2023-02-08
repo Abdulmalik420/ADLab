@@ -20,3 +20,12 @@ sudo apt-get install sssd realmd oddjob oddjob-mkhomedir adcli samba-common krb5
 ```
 - While installing you will be prompted to put in a default domain that you want to connect to.
 ![prompt](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-02-08%20152852.png)
+- Here is an explanation of what each of the packages does and what they are used for.
+- sssd: The System Security Services Daemon (SSSD) is a system service that provides access to various identity and authentication providers, including an Active Directory (AD) domain.
+- realmd: The Realmd service is used to discover and join identity domains such as Active Directory, and automate the configuration of required packages and services.
+- oddjob: The oddjob package provides a D-Bus service for running small, single-shot tasks for an unprivileged user, such as creating a home directory for a new user.
+- oddjob-mkhomedir: The oddjob-mkhomedir package is a script that creates a user's home directory if it does not already exist.
+- adcli: The adcli package provides a simple command-line interface to Active Directory domains. It can be used to join an Ubuntu machine to an AD domain, perform identity lookups, and change passwords.
+- samba-common: The Samba common package provides shared libraries and support files used by other Samba components, including the Samba client utilities.
+- krb5-user: The krb5-user package provides the user-space components required to use Kerberos authentication, which is a secure authentication system that is widely used for network authentication.
+- sssd-krb5: The sssd-krb5 package provides the SSSD back end for Kerberos authentication.
