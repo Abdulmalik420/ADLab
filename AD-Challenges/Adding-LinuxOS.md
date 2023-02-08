@@ -8,3 +8,15 @@
 - We can also check our active directory to make sure that a IP address was leased by our DHCP server.
 - It can be checked by going to DHCP thats in the tool section.         
 ![dhcpcheck](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-02-08%20151609.png)
+- We now need to add this VM to ourdomain.com
+- For this to work we need to install some packages. And before we do we should update and upgrade our package manager which is "apt" in ubuntu.
+```
+sudo apt update
+sudo apt upgrade
+```
+- Once we have it upgraded we can start installing the packages that we need.
+```
+sudo apt-get install sssd realmd oddjob oddjob-mkhomedir adcli samba-common krb5-user sssd-krb5
+```
+- While installing you will be prompted to put in a default domain that you want to connect to.
+![prompt](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-02-08%20152852.png)
