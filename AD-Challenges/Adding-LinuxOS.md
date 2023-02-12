@@ -41,3 +41,12 @@ sudo realm join --user=a-radahn ourdomain.com -v
 - If we go back to our DC vm we can see that this vm is now a part of domain.         
 ![check](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-02-08%20155117.png)
 - Now even if this vm is connected to our domain it still doesnt mean that we can log onto this with any other user in this domain.
+- We need to configure sssd to be able to connect to this using a user that we had created.
+- It can be found in ```/etc/sssd```.                                                           
+![path](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-02-11%20192344.png)
+- Open this ```sssd.conf``` file and edit it to look like this.
+- If you changed the file permission make sure that you change it back to how it was because if its isnt changed then the sssd service may not run.
+- Once you have it configured restart the sssd serrvice.                            
+![check](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-02-11%20192910.png)
+- Once you check that everything is working you can try and log in as a user. It seams like only admin can login to this machine.
+![pic](https://github.com/Abdulmalik420/ADLab/blob/main/ADLabPics/Screenshot%202023-02-11%20193056.png)
